@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/عنوان.jpg">
+    <title>گروه ساختمانی تاو</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            direction: rtl;
+        }
+
+        body {
+            /* in test hast pak kon */
+            height: 2000px;
+        }
+
+        #container {
+            width: 95%;
+            height: 2000px;
+            margin: 0 auto;
+
+        }
+
+        #head {
+            width: 100%;
+            height: 100px;
+            text-align: center;
+            padding: 0;
+            background-image: url(images/عنوان.jpg);
+            line-height: 100px;
+            color: white;
+
+        }
+
+        #title {
+            width: 100%;
+            height: 80px;
+            background-image: url(images/color.jpg);
+            background-color: ightblue;
+            float: right;
+            margin-top: 30px;
+            background-size: 100%100%;
+            font-weight: bolder;
+            font-size: 20px;
+            margin-bottom: 30px;
+
+
+        }
+
+        #title>ul>li {
+            float: right;
+            padding: 15px;
+            list-style-type: none;
+            font-size: larger;
+            margin-left: 5px;
+
+        }
+
+
+
+        #right {
+            width: 68.25%;
+            height: auto;
+            background-color: ed;
+            margin-right: 3%;
+            float: right;
+
+
+        }
+
+
+        #left {
+            width: 22.75%;
+            background-color: ellowgreen;
+            float: left;
+            margin-left: 3%;
+            border-radius: 15px;
+            padding: 5px;
+
+        }
+
+        #left>h4 {
+            text-align: center;
+            font-size: 30px;
+            margin-top: 10px;
+        }
+
+        #left>h3 {
+            text-indent: 10px;
+            font-size: 20px;
+            margin-top: 10px;
+
+        }
+
+
+
+        #left>h3>p {
+            font-size: 15px;
+            margin-top: 7px;
+
+        }
+
+        #left>h3>a:hover {
+            color: darkred;
+        }
+
+        .tri {
+            width: 0;
+            height: 0;
+            border-right: 7px solid blue;
+            border-top: 7px solid transparent;
+            border-bottom: 7px solid transparent;
+            display: inline-block;
+            margin-left: 4px;
+        }
+
+        /* az inja be paeen div rast hast */
+
+        .images {
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            border-radius: 60px;
+
+
+        }
+
+        .paragragh {
+            margin-top: 10px;
+            padding: 30px;
+
+        }
+
+        .box {
+            width: 100%;
+            height: 330px;
+            background-color: almon;
+            padding: 15px;
+            margin-bottom: 50px;
+            font-size: 18px;
+
+
+        }
+
+        .box-near {
+            width: 49%;
+            height: 300px;
+            background-color: almon;
+            margin-right: 0.6666%;
+            float: right;
+            font-size: 18px;
+
+
+        }
+
+        #img1 {
+            float: left;
+            box-shadow: 2px 2px 2px 3px black;
+            margin-right: 15px;
+        }
+
+        #img2 {
+            float: right;
+            margin-left: 40px;
+            box-shadow: -2px 2px 2px 3px black;
+        }
+
+        .text-3 {
+            margin: 0;
+            font-size: 30px;
+
+
+        }
+
+
+        /* in ghesmat baraye end hasty */
+
+        .color {
+            float: right;
+            width: 1500px;
+            height: 200px;
+            margin-top: 80px;
+
+        }
+
+        .color>img {
+            width: 1503.84px;
+            height: 150px;
+        }
+
+        #end-box {
+            width: 100%;
+            height: 300px;
+            background-color: qua;
+            float: right;
+
+
+
+
+        }
+
+        #box1 {
+            font-size: 18px;
+            line-height: 30px;
+            margin-right: 15px;
+            padding: 15px;
+            float: right;
+            width: 486.28px;
+            height: 300px;
+
+        }
+
+
+        #box2 {
+            font-size: 18px;
+            margin-right: 15px;
+            float: right;
+            width: 486.28px;
+            height: 300px;
+            margin-right: 15px;
+            padding: 15px;
+            line-height: 40px;
+
+
+        }
+
+        #box2>p>a:hover {
+            color: darkblue;
+            font-weight: bold;
+
+
+        }
+
+        #box3 {
+            font-size: 18px;
+            margin-right: 15px;
+            height: 300px;
+            width: 486.28x;
+            margin-right: 15px;
+            padding: 15px;
+            display: inline-block;
+
+
+        }
+
+        span {
+            display: inline-block;
+            width: 48px;
+            height: 48px;
+
+        }
+
+        .head-box {
+            font-size: 28px;
+            font-weight: bolder;
+
+
+        }
+
+        #social-media {
+            padding: 5px;
+            height: 48px;
+            box-sizing: content-box;
+            line-height: 48px;
+            display: inline-block;
+            color: transparent;
+
+
+        }
+
+        #box3>#social-media>p:hover {
+            color: black;
+            font-weight: bold;
+            transition: 0.5s;
+
+
+        }
+
+
+
+        img {
+            width: 48px;
+            height: 48px;
+            float: right;
+
+        }
+
+
+        #customer {
+            width: 64px;
+            height: 64px;
+            position: fixed;
+            right: 0;
+            bottom: 50px;
+            opacity: 0.6;
+            transition-duration: 1s;
+        }
+
+        #customer:hover {
+            opacity: 1;
+
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        #tabligh {
+            width: 130px;
+            height: 260px;
+            left: 15px;
+            bottom: 25px;
+            position: fixed;
+            background-color: aqua;
+            font: bold;
+            font-size: 70px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 20px;
+            opacity: 0.4;
+
+        }
+
+        #tabligh:hover {
+            opacity: 1;
+            color: gold;
+            background-color: black;
+            transition: 0.5s;
+            transition-delay: 0.2s;
+        }
+
+
+
+        .clear {
+            float: both;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="head">
+            <h1>گروه طراحی و نظارت تاو</h1>
+        </div>
+
+        <div id="title">
+            <ul>
+                <li><a href="file:///C:/Users/nothing/Desktop/web%20pack/reza.html" target="_blank">صفحه نخست</a> </li>
+                <li><a href="file:///C:/Users/nothing/Desktop/web%20pack/reza.html" target="_blank">خدمات مهندسی</a>
+                </li>
+                <li> <a href="file:///C:/Users/nothing/Desktop/web%20pack/reza.html" target="_blank">گالری</a> </li>
+                <li><a href="#box1">درباره ما</a></li>
+            </ul>
+        </div>
+
+        <div id="right">
+            <div class="box">
+                <img id="img1" class="images" src="images/آرماتوریندی.jpg" alt="اسکلت" title="آرماتور بندی">
+                <p class="paragragh">
+                <pre style="font-size: 30px;font-weight: bold;">آرماتوربندی</pre><br> آرماتوربندی یک فرآیند است که در آن
+                میلگردها و سایر محصولات فولادی با یک ترتیب مشخص در کنار یکدیگر چیده شده و آن‌ها را به کمک روش‌هایی مانند
+                جوشکاری سرد یا بست فلزی به هم متصل می‌نماییم</p>
+            </div>
+
+            <div class="box">
+                <img id="img2" class="images" src="images/تیغه1.jpg" alt="سفت کاری" title="تیغه چینی ">
+                <p class="paragragh">
+                <pre style="font-size: 30px;font-weight: bold;"> سفت کاری ساختمان </pre><br> به عنوان اولین مرحله از
+                عملیات اجرایی ساخت یک بنا می باشد که شامل کلیه کارهایی است که به شکل دهی یک ساختمان منجر می شود. در اصل
+                مراحل سفت کاری ساختمان شامل کلیه عملیات هایی است که شکل اولیه ساختمان را تشکیل می دهند و این بنای شکل
+                گرفته و طراحی شده </p>
+            </div>
+
+            <div class="box-near">
+                <img id="img1" class="images" src="images/گچکاری.jpg" alt="نازک کاری" title="گچکاری "
+                    style="border-radius: 0 30px 30px 0;">
+                <p class="text-3" class="paragragh">
+                <pre style="font-size: 30px;font-weight: bold;"> نازک کاری </pre> <br> قرار گرفتن پوشش نهایی بر روی
+                ساختار زیرین و سفت کاریِ ساختمان، و در واقع آخرین کارهای انجام شده در داخل ساختمان که در مقابل چشم هر
+                بیننده قرار می‌گیرد، نازک کاری نامیده می‌شود. مصالح به کار گرفته شده در نازک کاری، مصالحی هستند که
+                دیوارها، سقف‌ها و کف‌ها را می‌پوشانند. </p>
+            </div>
+
+
+            <div class="box-near">
+                <img id="img2" class="images" src="images/نما.jpg" alt="نما" title="سنگ کاری "
+                    style="border-radius: 30px 0 0 30px;">
+                <p class="text-3" class="paragragh">
+                <pre style="font-size: 30px;font-weight: bold;">سنگ کاری</pre><br> استفاده از سنگ طبیعی و مصنوعی برای
+                پوشش نما و یا سایر بخش‌ها مانند کف، پله، دیوار و غیره می‌باشد. سنگ‌کاری‌ها مراحل مختلفی دارند و به
+                دسته‌های مختلفی نیز تقسیم می‌شوند، چرا که بخش‌های ساختمان با یکدیگر متفاوت هستند و هر کدام از آنها به
+                نوعی از اجرای سنگ کاری نیاز دارند </p>
+            </div>
+
+        </div>
+
+        <div id="left">
+            <h4>مراحل اجرای پروژه </h4>
+            <br>
+            <hr>
+            <h3> <span class="tri"></span><a href="file:///C:/Users/nothing/Desktop/web%20pack/reza.html"
+                    target="_blank">خاکبرداری</a><br>
+                <P> اولین مرحله برای شروع پروژه خاکبرداری طبق نقشه های مصوبه شهرداری میباشد</P>
+            </h3>
+            <br>
+            <hr>
+            <h3><span class="tri"></span><a href="file:///C:/Users/nothing/Desktop/web%20pack/reza.html"
+                    target="_blank">آرماتور بندی</a><br>
+                <P> خرید میلگرد استاندارد و به کارگیری نیروی کار ماهر برای داشتن یک اسکلت مقاوم در برابر زلزه ضرورری
+                    میباشد</P>
+            </h3>
+            <br>
+            <hr>
+            <h3><span class="tri"></span><a href="file:///C:/Users/nothing/Desktop/web%20pack/reza.html"
+                    target="_blank">تیغه چینی</a><br>
+                <P> داشتن دیوارهای صاف با ملات مناسب یکی از نکات مهم دیوار چینی میباشد</P>
+            </h3>
+            <br>
+            <hr>
+            <h3><span class="tri"></span><a href="file:///C:/Users/nothing/Desktop/web%20pack/reza.html"
+                    target="_blank">لوله کشی</a><br>
+                <P> استفاده از لوله های پنچ لایه برای آب آشامیدنی و لوله پلیکا ضخیم برای فاضلاب حیز اهمیت است</P>
+            </h3>
+            <br>
+            <hr>
+            <h3><span class="tri"></span><a href="file:///C:/Users/nothing/Desktop/web%20pack/reza.html"
+                    target="_blank">برق کاری</a><br>
+                <P>استفاده مناسب از سیم های برق با قطر مناسب برای هر قسمت باید کنترل شود </P>
+            </h3>
+            <br>
+            <hr>
+            <h3><span class="tri"></span><a href="file:///C:/Users/nothing/Desktop/web%20pack/reza.html"
+                    target="_blank">گاز کشی</a><br>
+                <P>به دلیل اهمیت زیاد گاز کشی حتما باید از استاد کار ماهر بهره برد </P>
+            </h3>
+            <br>
+            <hr>
+            <h3><span class="tri"></span><a href="file:///C:/Users/nothing/Desktop/web%20pack/reza.html"
+                    target="_blank">گچ کاری</a><br>
+                <P>داشتن سطح صاف برای ادامه کار بقیه استاد کاران یکی از عواملی هست که یک مدیر باید توجه داشته باشد </P>
+            </h3>
+            <br>
+            <hr>
+            <h3><span class="tri"></span><a href="file:///C:/Users/nothing/Desktop/web%20pack/reza.html"
+                    target="_blank">نقاشی</a><br>
+                <P>استفاده از رنگ های مرغوب میتواند باعث دیده شدن فضای داخلی شود </P>
+            </h3>
+            <br>
+            <hr>
+            <h3><span class="tri"></span><a href="file:///C:/Users/nothing/Desktop/web%20pack/reza.html"
+                    target="_blank">نصب لوازم داخلی</a><br>
+                <P>نصب درب های داخلی , شیر آلات , کابینت و غیره میتواند اخرین مرحله کار یک پروژ] باشد </P>
+            </h3>
+            <br>
+            <hr>
+            <h3><span class="tri"></span><a href="file:///C:/Users/nothing/Desktop/web%20pack/reza.html"
+                    target="_blank">تحویل پروژه</a><br>
+                <P>تحویل پروژه به کارفرما زمانی میباشد ساختمان دیگر نیازی به اجرای هیچگونه کاری ندارد و آماده بهره
+                    برداری میباشد </P>
+            </h3>
+            <br>
+        </div>
+
+        <div class="color">
+            <img src="images/color.jpg" alt="color">
+        </div>
+
+        <div id="end-box">
+            <div id="box1">
+                <p class="head-box">راه های ارتباطی</p><br>
+                <p>ادرس : نام استان - نام خیابان - نام کوچه - پلاک</p>
+                <p>شماره تماس : 12345678-021 <br>شماره موبایل : 09121234567 <br>فکس : 12345678 <br>کد پستی : 1234567890
+                    <br> <a href="mailto:example@gmail.com">ایمیل: example@gmail.com</a> <br></p>
+            </div>
+
+            <div id="box2">
+                <p class="head-box">پیوندها</p><br>
+                <p> <a href="https://tax.gov.ir/Pages/HomePage" target="_blank"> سازمان امور مالیاتی کشور </a></p>
+                <p> <a href="https://aro.gov.ir/fa-IR/PortalAro/1/page/%D8%B5%D9%81%D8%AD%D9%87-%D8%A7%D8%B5%D9%84%DB%8C"
+                        target="_blank"> سازمان اداری و استخدامی کشور </a> </p>
+                <p> <a href=" https://saricity.ir/mantaghe2" target="_blank"> شهرداری منطقه 2 </a></p>
+                <p><a href="https://alborz-nezam.ir/" target="_blank">سازمان نظام مهندسی </a> </p>
+                <p><a href="https://th.ssaa.ir/" target="_blank">اداره کل ثبت اسنادو املاک تهران</a> </p>
+
+            </div>
+
+            <div id="box3">
+                <p class="head-box">شبکه های مجازی</p><br>
+                <div id="social-media">
+                    <p> <img src="images/icons/instagram.jpg" alt="instagram"> اینستاگرام</p>
+                    <p> <img src="images/icons/telegram.jpg" alt="telegram"> تلگرام </p>
+                    <p> <img src="images/icons/whatsapp.jpg" alt="whatsapp"> واتساپ </p>
+                    <p> <img src="images/icons/youtube.jpg" alt="youtube"> یوتوب </p>
+                    <p> <img src="images/icons/linkedin.jpg" alt="linkedin"> لینکدین </p>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="customer">
+            <a href="file:///C:/Users/nothing/Desktop/web%20pack/reza.html#box1" target="_blank"><img
+                    src="images/chat.jpg" alt="help"></a>
+        </div>
+
+
+
+        <a href="file:///C:/Users/nothing/Desktop/web%20pack/reza.html#box1" target="_blank">
+            <div id="tabligh"> اینجا تبلیغ کنید </div>
+        </a>
+        <div class="clear"></div>
+
+
+
+    </div>
+
+</body>
+
+</html>
